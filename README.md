@@ -1,61 +1,62 @@
-# Catálogo de Animes
 
-Este é um projeto de gerenciamento de registros de animes, desenvolvido para aplicar conceitos fundamentais de programação como alocação dinâmica, algoritmos de ordenação e busca, e manipulação de arquivos.
+# Anime Catalog
 
-## Funcionalidades
+This is a project for managing anime records, developed to apply fundamental programming concepts such as dynamic memory allocation, sorting and searching algorithms, and file manipulation.
 
-- **Alocação Dinâmica:**
-  O vetor que armazena os registros de animes utiliza alocação dinâmica, permitindo que o programa expanda sua capacidade conforme novos animes são adicionados.
+## Features
 
-- **Ordenação com Quick Sort:**
-  Implementação do algoritmo Quick Sort para organizar os registros, facilitando a consulta e a manutenção dos dados.
+- **Dynamic Memory Allocation:**  
+  The array that stores anime records uses dynamic allocation, allowing the program to expand its capacity as new anime entries are added.
 
-- **Busca Binária:**
-  Localização eficiente de registros específicos no catálogo, aumentando a performance em consultas.
+- **Sorting with Quick Sort:**  
+  Implementation of the Quick Sort algorithm to organize the records, making it easier to query and maintain the data.
 
-- **Persistência de Dados:**
-  Leitura e escrita de registros em arquivos para garantir que os dados sejam mantidos entre execuções do programa.
+- **Binary Search:**  
+  Efficiently locates specific records in the catalog, improving performance in searches.
 
-- **Adicionação de Animes:**
-  Permite aos usuários expandir o catálogo com novos registros de animes.
+- **Data Persistence:**  
+  Reading and writing records to files to ensure that the data is retained between program executions.
 
-## Requisitos
+- **Adding New Anime:**  
+  Allows users to expand the catalog with new anime records.
 
-- Compilador C++ compatível com padrão C++11 ou superior.
-- Sistema operacional Windows, Linux ou macOS.
+## Requirements
 
-## Como executar o projeto
+- C++ compiler compatible with C++11 or higher.
+- Windows, Linux, or macOS operating system.
 
-1. Clone o repositório:
+## How to Run the Project
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/torrescf/Catalogo-de-Animes.git
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
    ```bash
    cd Catalogo-de-Animes
    ```
 
-3. Compile o código-fonte:
+3. Compile the source code:
    ```bash
    g++ -o catalogo main.cpp
    ```
 
-4. Execute o programa:
+4. Run the program:
    ```bash
    ./catalogo
    ```
 
-## Estrutura do Projeto
+## Project Structure
 
-- `main.cpp`:
-  Arquivo principal do programa, contendo a implementação das funcionalidades descritas.
+- `main.cpp`:  
+  The main file of the program, containing the implementation of the described features.
 
-- `data/`:
-  Diretório para armazenamento dos arquivos de dados persistentes.
+- `data/`:  
+  Directory for storing the persistent data files.
 
-## Funcionalidades Futuras
+## Future Features
 
-- Implementação de interface gráfica para maior usabilidade.
-- Exportação dos registros em formatos como CSV ou JSON.
-- Integração com APIs para buscar informações automáticas sobre animes.
+- Implementation of a graphical user interface (GUI) for better usability.
+- Exporting records in formats such as CSV or JSON.
+- Integration with APIs to automatically fetch anime information.
